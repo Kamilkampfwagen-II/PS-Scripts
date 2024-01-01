@@ -1,3 +1,5 @@
+#requires -PSEdition Desktop
+
 # This is a proxy function for Invoke-WebRequest that ensures compatibility when Internet Explorer is not present.
 function Invoke-WebRequest {
     param(
